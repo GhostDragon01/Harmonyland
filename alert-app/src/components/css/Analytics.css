@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 35px;
+}
+
+.graph-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #add8e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.graph-container-bar {
+    width: 600px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #add8e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.graph-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.chart {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-chart-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.average-alert {
+    width: 40%;
+    padding: 20px;
+    background-color: #add8e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+    height: 150px;
+}
+
+.average-alert h2 {
+    margin-top: 0;
+}
+
+.average-alert p {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .graph-container, .average-alert {
+        width: 100%;
+    }
+}

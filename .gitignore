@@ -1,0 +1,28 @@
+target
+.bsp
+.idea
+project
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+alert-app/node_modules
+alert-app/.pnp
+alert-app/.pnp.js
+
+# testing
+alert-app/coverage
+
+# production
+alert-app/build
+
+# misc
+alert-app/.DS_Store
+alert-app/.env.local
+alert-app/.env.development.local
+alert-app/.env.test.local
+alert-app/.env.production.local
+
+alert-app/npm-debug.log*
+alert-app/yarn-debug.log*
+alert-app/yarn-error.log*
